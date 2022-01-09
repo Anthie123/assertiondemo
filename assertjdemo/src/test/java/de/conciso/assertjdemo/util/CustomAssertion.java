@@ -25,7 +25,7 @@ public class CustomAssertion extends AbstractAssert<CustomAssertion, TestClass> 
   public CustomAssertion hasLongValue(long value) {
     isNotNull();
     if (!Objects.equals(actual.getLongValue(), value)) {
-      failWithMessage("Wrong long value honk: <%d> <> <%d>", value, actual.getLongValue());
+      failWithMessage("Wrong long value: <%d> <> <%d>", value, actual.getLongValue());
     }
     return this;
   }

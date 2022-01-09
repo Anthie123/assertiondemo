@@ -6,16 +6,16 @@ import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.closeTo;
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.hamcrest.Matchers.matchesPattern;
 import static org.hamcrest.Matchers.not;
 
-import de.conciso.hamcrestdemo.util.CustomMatcher;
-import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
+
 import org.junit.jupiter.api.Test;
+
+import de.conciso.hamcrestdemo.util.CustomMatcher;
 
 public class AssertionTest {
 
@@ -38,7 +38,7 @@ public class AssertionTest {
 
   @Test
   public void customAssertionTest() {
-    assertThat(new TestClass(), CustomMatcher.containsStringValue("value"));
+    assertThat(new TestClass(), CustomMatcher.containsStringValue("Test"));
   }
 
 

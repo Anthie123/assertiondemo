@@ -7,7 +7,7 @@
     <artifactId>assertjdemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>hamcrestdemo</name>
+    <name>assertjdemo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +20,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.7.0</version>
+                <version>5.8.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.18.1</version>
+            <version>3.22.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
